@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lqhbO1E2Z3hi7QdClElOgPgIok2U6v6zN6gvTx554YPY32wc6AlmFDCRC12Wygs8KRj1ncjhMXJTQsGb0/USRg==",
+  "dgSpecHash": "3cfmdCKBUq8fj5KcfvzInsIjfxtakcH3925fWpfEO2jdi1ntBcNgHh2RCU/nJVEk6wXJZN5zrvBgq5epykSDcw==",
   "success": true,
   "projectFilePath": "c:\\SeleniumTraining\\Selenium.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,8 @@
     "C:\\Users\\smitmark\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\smitmark\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\smitmark\\.nuget\\packages\\selenium.support\\4.8.2\\selenium.support.4.8.2.nupkg.sha512",
-    "C:\\Users\\smitmark\\.nuget\\packages\\selenium.webdriver\\4.8.2\\selenium.webdriver.4.8.2.nupkg.sha512",
-    "C:\\Users\\smitmark\\.nuget\\packages\\selenium.webdriver.msedgedriver\\112.0.1722.39\\selenium.webdriver.msedgedriver.112.0.1722.39.nupkg.sha512",
+    "C:\\Users\\smitmark\\.nuget\\packages\\selenium.webdriver\\4.9.0\\selenium.webdriver.4.9.0.nupkg.sha512",
+    "C:\\Users\\smitmark\\.nuget\\packages\\selenium.webdriver.msedgedriver\\114.0.1793-pre\\selenium.webdriver.msedgedriver.114.0.1793-pre.nupkg.sha512",
     "C:\\Users\\smitmark\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\smitmark\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\smitmark\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"

@@ -64,11 +64,11 @@
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[4.9.0, )"
             },
             "Selenium.WebDriver.MSEdgeDriver": {
               "target": "Package",
-              "version": "[112.0.1722.39, )"
+              "version": "[114.0.1793-pre, )"
             },
             "coverlet.collector": {
               "target": "Package",

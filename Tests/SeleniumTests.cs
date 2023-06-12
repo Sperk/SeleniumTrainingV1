@@ -1,4 +1,5 @@
 using SeleniumTrainingPages;
+using System.IO;
 
 namespace SeleniumTraining;
 
@@ -10,6 +11,18 @@ internal class SeleniumTests : BaseTest
     string homepageUrl = "https://dlapiper.sharepoint.com/sites/intranet";
     string expectedHomePageTitle = "Pulse - Intranet Home";
     string expectedOurFirmPageTitle = "Our Firm - The Firm";
+    string resultsDir = "C:\\SeleniumScreenshots\\Results-";
+    string today = DateTime.Now.ToString("ddMMyyyy");
+
+    [OneTimeSetUp]
+      public void OneTime()
+      {
+            // Create results directory if it doesn't already exist
+        if (!Directory.Exists(resultsDir + today));
+        {
+            Directory.CreateDirectory(resultsDir + today);
+        }
+      }
         
     [SetUp]
       public void TestSetUp()
@@ -31,8 +44,14 @@ internal class SeleniumTests : BaseTest
         // Assert page title is as expected
         Assert.AreEqual(expectedHomePageTitle,pageTitle);
 
+        // Take a screenshot
+        Screenshot ss = ((ITakesScreenshot)GetDriver()).GetScreenshot();
+        ss.SaveAsFile(resultsDir + today + "//Homepage-" + DateTime.Now.ToString("HHmmss") + ".png", 
+        ScreenshotImageFormat.Png);
+
         // Write to console - Added for training purposes only
         Console.WriteLine("TEST COMPLETED");
+
     }
     [Test]
     [Category("Smoke")]

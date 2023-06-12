@@ -14,8 +14,8 @@
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.4.2",
           "Selenium.Support": "4.8.2",
-          "Selenium.WebDriver": "4.8.2",
-          "Selenium.WebDriver.MSEdgeDriver": "112.0.1722.39",
+          "Selenium.WebDriver": "4.9.0",
+          "Selenium.WebDriver.MSEdgeDriver": "114.0.1793-pre",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -414,7 +414,7 @@
       "NUnit3TestAdapter/4.4.2": {},
       "Selenium.Support/4.8.2": {
         "dependencies": {
-          "Selenium.WebDriver": "4.8.2"
+          "Selenium.WebDriver": "4.9.0"
         },
         "runtime": {
           "lib/net6.0/WebDriver.Support.dll": {
@@ -423,7 +423,7 @@
           }
         }
       },
-      "Selenium.WebDriver/4.8.2": {
+      "Selenium.WebDriver/4.9.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
         },
@@ -434,7 +434,7 @@
           }
         }
       },
-      "Selenium.WebDriver.MSEdgeDriver/112.0.1722.39": {},
+      "Selenium.WebDriver.MSEdgeDriver/114.0.1793-pre": {},
       "System.Reflection.Metadata/1.6.0": {},
       "System.Text.Encodings.Web/7.0.0": {},
       "System.Text.Json/7.0.0": {
@@ -597,19 +597,19 @@
       "path": "selenium.support/4.8.2",
       "hashPath": "selenium.support.4.8.2.nupkg.sha512"
     },
-    "Selenium.WebDriver/4.8.2": {
+    "Selenium.WebDriver/4.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gNCaZrR32U2e9pyS+HXSqNHdcrIbqulOkcmycFoDL/tM5la4tELaZ3FpPRbq7tjJK3cKs5lLqVVFM9PfY1WW5g==",
-      "path": "selenium.webdriver/4.8.2",
-      "hashPath": "selenium.webdriver.4.8.2.nupkg.sha512"
+      "sha512": "sha512-7MiV7cpu5LuM7bBhMz/a25Lb78rFyfl8v2G3q56TAtxdDJEj3WXaRMDyytrKq1YVZ7jaN3pygku0n0IsYfe/SQ==",
+      "path": "selenium.webdriver/4.9.0",
+      "hashPath": "selenium.webdriver.4.9.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.MSEdgeDriver/112.0.1722.39": {
+    "Selenium.WebDriver.MSEdgeDriver/114.0.1793-pre": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9TW6Q9iMV4LuYcBBf2e5wLKkX/5Xcey4xoAk7Cj8Dxg9MqYPIKHwUrktR+01qiBUhpm53Iy+OaqpHDmajAyTpw==",
-      "path": "selenium.webdriver.msedgedriver/112.0.1722.39",
-      "hashPath": "selenium.webdriver.msedgedriver.112.0.1722.39.nupkg.sha512"
+      "sha512": "sha512-XDwXi16lEZX5/gvRpK3lVu8MAIh0U9RuXZuqoKOIrH1V1BF6+dUP+w3dmfxiyqFvGlNYz6t4yG59ZnNobNqWxg==",
+      "path": "selenium.webdriver.msedgedriver/114.0.1793-pre",
+      "hashPath": "selenium.webdriver.msedgedriver.114.0.1793-pre.nupkg.sha512"
     },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",
