@@ -3,7 +3,6 @@ namespace SeleniumTraining;
   internal abstract class BaseTest
   {
     private IWebDriver driver;
-
     protected IWebDriver GetDriver()
     {
       return driver;

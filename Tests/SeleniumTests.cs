@@ -7,10 +7,6 @@ internal class SeleniumTests : BaseTest
 {
     // private IWebDriver driver;
     private HomePage homePage;
-    int millisecondsToSleep = 3000;
-    string homepageUrl = "https://dlapiper.sharepoint.com/sites/intranet";
-    string expectedHomePageTitle = "Pulse - Intranet Home";
-    string expectedOurFirmPageTitle = "Our Firm - The Firm";
     string resultsDir = "C:\\SeleniumScreenshots\\Results-";
     string today = DateTime.Now.ToString("ddMMyyyy");
 
@@ -35,14 +31,14 @@ internal class SeleniumTests : BaseTest
     public void NavToHomepage()
     {
         // Start Edge Session nav to Intranet
-        GetDriver().Url = homepageUrl;
+        GetDriver().Url = Globals.homepageUrl;
         GetDriver().Manage().Window.Maximize();
-        Helpers.Helpers.Pause(millisecondsToSleep);
+        Helpers.Helpers.Pause(Globals.millisecondsToSleep);
         // Get page title
         string pageTitle = GetDriver().Title;
 
         // Assert page title is as expected
-        Assert.AreEqual(expectedHomePageTitle,pageTitle);
+        Assert.AreEqual(Globals.expectedHomePageTitle,pageTitle);
 
         // Take a screenshot
         Screenshot ss = ((ITakesScreenshot)GetDriver()).GetScreenshot();
@@ -58,18 +54,18 @@ internal class SeleniumTests : BaseTest
     public void NavToOurFirmPage()
     {
       // Navigate to hompepage
-      GetDriver().Url = homepageUrl;
+      GetDriver().Url = Globals.homepageUrl;
       GetDriver().Manage().Window.Maximize();
       // Wait for 'Our Firm' link to render
       homePage.WaitForOurFirmLink();
       // Click 'Our Firm' link
       homePage.ClickOurFirmLink();
       // Added for training purposes
-      Helpers.Helpers.Pause(millisecondsToSleep);
+      Helpers.Helpers.Pause(Globals.millisecondsToSleep);
       // Get page title
       string pageTitle = GetDriver().Title;
 
       // Assert page title is as expected
-      Assert.AreEqual(expectedOurFirmPageTitle,pageTitle);
+      Assert.AreEqual(Globals.expectedOurFirmPageTitle,pageTitle);
     }
 }
